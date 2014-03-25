@@ -1,0 +1,102 @@
+﻿a{text-decoration: none;}
+footer a:visited{
+	color: white;
+}
+
+body,button,input{
+	font-family: Times,"微软雅黑"；
+}
+
+body{
+	background: url(../img/bg.jpg);
+	background-attachment: fixed;
+	margin: 0;
+}
+
+header{
+	background: rgba(0,0,0,0.75);
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	padding: 15px;
+}
+
+#title{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#subtitle{
+	font-size: 25px;
+	margin-top: 5px;
+	color: yellow;
+}
+
+.board{
+	background: rgba(255,255,255,0.7);
+	width: 650px;
+	height: 410px;
+	margin: 20px auto;
+	border: solid 2px;
+	border-color: rgba(255,255,255,0.9);
+	text-align: center;
+	padding: 5px 17px;
+}
+
+.date{
+	font-style: italic;
+}
+
+.dscp{
+	font-weight: bold;
+	text-align: left;
+}
+
+#photos img{
+	height: 300px;
+	margin-top: 10px;
+}
+
+.news-title{
+	font-weight: bold;
+	font-size: 25px;
+	margin: 5px auto;
+}
+
+#news ul{
+	text-align: left;
+	font-weight: bold;
+}
+
+#news ul li{
+	margin: 5px auto;
+}
+
+#news ul li a{
+	color: rgb(0, 92, 255);
+}
+
+#foot{
+	height: 80px;
+}
+
+footer{
+	background: rgba(0,0,0,0.8);
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	padding: 15px 0;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+#bonus{
+	font-size: 20px;
+	font-weight: bold;	
+	margin-bottom: 10px;	
+}
+
+#bonus:hover{
+	color: yellow;
+}
